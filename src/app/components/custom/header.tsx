@@ -25,7 +25,7 @@ export default function Header() {
                 </Link>
 
                 {/*Navegacao */}
-                <nav className="hidden md:flex gap-10 text-lg font-semibold">
+                <nav className="hidden md:flex gap-10 text-lg font-semibold relative right-[6px]">
                     <Link href="#fotos" className="text-lg font-bold">Nossas Fotos</Link>
                     <Link href="#reservas" className="text-lg font-bold">Reservar</Link>
                     <Link href="#localizacao" className="text-lg font-bold">Localização</Link>
