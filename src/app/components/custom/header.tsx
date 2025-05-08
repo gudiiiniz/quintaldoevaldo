@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur border-b">
-            <div className="container mx-auto flex items-center justify-between px-4 py-3 md:py-4">
+            <div className="container mx-auto flex items-center justify-between px-4 py-1 sm:py-3 md:py-4">
 
                 {/* Logo */}
                 <Link href="/" className="w-[176px] flex items-center gap-2">
@@ -18,7 +18,7 @@ export default function Header() {
                         alt="Quintal do Evaldo"
                         width={80}
                         height={80}
-                        className="object-cover scale-125"
+                        className="object-cover scale-110 sm:scale-125"
 
 
                     />
@@ -39,17 +39,17 @@ export default function Header() {
                         href="https://wa.me/5511943421510"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
                     >
-                        <MessageCircle className="text-blue-600 h-6 w-6" />
+                        <MessageCircle className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
                     </Link>
 
                     {/*Telefone*/}
                     <Link
                         href="tel:+5511943421510"
-                        className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition md:hidden"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition md:hidden"
                     >
-                        <Phone className="text-blue-600 h-6 w-6" />
+                        <Phone className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
                     </Link>
 
                     {/*Botao Insta*/}
@@ -57,9 +57,9 @@ export default function Header() {
                         href="https://instagram.com/quintalevaldo"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
                     >
-                        <Instagram className="text-blue-600 h-6 w-6" />
+                        <Instagram className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
 
 
                     </Link>
