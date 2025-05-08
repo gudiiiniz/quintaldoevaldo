@@ -1,11 +1,10 @@
-"use client";
 import React from "react";
 import { Calendar } from "@/components/ui/calendar";
 import { ptBR } from "date-fns/locale";
 
 export default function Reserves() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
-  const phone = "5511953115522";
+  const phone = "5511943421510";
 
   const formattedDate = date ? date.toLocaleDateString("pt-BR") : "";
   const whatsappLink = date

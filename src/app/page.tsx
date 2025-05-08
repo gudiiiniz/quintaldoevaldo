@@ -4,6 +4,7 @@ import Photos from "./components/custom/photos";
 import About from "./components/custom/about";
 import Reserves from "./components/custom/reserves";
 import Local from "./components/custom/local";
+import Info from "./components/custom/info";
 
 export default function Home() {
 
@@ -20,6 +21,8 @@ export default function Home() {
         <Reserves />
 
         <Local />
+
+        <Info />
 
       </div>
     </>

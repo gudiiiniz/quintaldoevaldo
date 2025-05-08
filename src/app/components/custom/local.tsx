@@ -1,5 +1,3 @@
-"use client";
-
 export default function Local() {
 
   const address = "R. Engenheiro Villares da Silva, 180 - Itaquera, São Paulo - SP";
@@ -10,7 +8,9 @@ export default function Local() {
         <h2 className="text-3xl font-bold mb-4 text-center">Localização</h2>
 
         <p className="mb-6 text-center text-lg leading-relaxed">
-          Estamos localizados em {address}. Venha nos visitar e conhecer nosso espaço!
+          Estamos localizados na Rua Engenheiro Villares da Sila, 180 <br></br>
+          Itaquera, São Paulo - SP<br></br>
+          Venha visitar e conhecer o nosso espaço!
         </p>
 
         <div className="w-full h-64 md:h-86 border-1 border-gray-300 rounded-lg overflow-hidden mx-auto">

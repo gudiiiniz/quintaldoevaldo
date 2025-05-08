@@ -25,17 +25,18 @@ export default function Header() {
                 </Link>
 
                 {/*Navegacao */}
-                <nav className="hidden md:flex gap-10 text-lg font-semibold relative right-[6px]">
+                <nav className="hidden md:flex gap-16 text-lg font-semibold relative right-[6px]">
                     <Link href="#fotos" className="text-lg font-bold">Nossas Fotos</Link>
                     <Link href="#reservas" className="text-lg font-bold">Reservar</Link>
                     <Link href="#localizacao" className="text-lg font-bold">Localização</Link>
+                    <Link href="#informacoes" className="text-lg font-bold">Informações</Link>
                 </nav>
 
                 {/*Botoes de Acao*/}
                 <div className="flex items-center gap-4">
                     {/*Whatsapp*/}
                     <Link
-                        href="https://wa.me/5511988146246"
+                        href="https://wa.me/5511943421510"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
@@ -45,8 +46,8 @@ export default function Header() {
 
                     {/*Telefone*/}
                     <Link
-                        href="tel:+5511988146246"
-                        className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
+                        href="tel:+5511943421510"
+                        className="h-12 w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition md:hidden"
                     >
                         <Phone className="text-blue-600 h-6 w-6" />
                     </Link>
