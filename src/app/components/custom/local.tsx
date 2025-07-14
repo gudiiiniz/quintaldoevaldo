@@ -15,7 +15,7 @@ export default function Local() {
               Bairro Itaquera, São Paulo - SP
             </p>
             <p className="text-lg leading-relaxed">
-              Venha nos visitar e conhecer um espaço acolhedor e cheio de natureza!
+              Venha conhecer nosso espaço e faça já a sua reserva!
             </p>
           </div>
 
