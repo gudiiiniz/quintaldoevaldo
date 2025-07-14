@@ -19,7 +19,7 @@ export default function About() {
             tranquilo, arborizado e com fácil acesso no coração de <strong>Itaquera - São Paulo</strong>.
           </p>
 
-          <p className="text-xl font-semibold text-center text-blue-600 pt-2">
+          <p className="text-xl font-semibold text-center text-green-800 pt-2">
             Venha nos visitar e descubra por que somos o quintal preferido da zona leste!
           </p>
         </div>

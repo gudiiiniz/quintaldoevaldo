@@ -39,17 +39,17 @@ export default function Header() {
                         href="https://wa.me/5511943421510"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-green-200 hover:bg-green-300 transition"
                     >
-                        <MessageCircle className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
+                        <MessageCircle className="text-green-800 h-5 w-5 sm:h-6 sm:w-6" />
                     </Link>
 
                     {/*Telefone*/}
                     <Link
                         href="tel:+5511943421510"
-                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition md:hidden"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-green-200 hover:bg-green-300 transition md:hidden"
                     >
-                        <Phone className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
+                        <Phone className="text-green-800 h-5 w-5 sm:h-6 sm:w-6" />
                     </Link>
 
                     {/*Botao Insta*/}
@@ -57,9 +57,9 @@ export default function Header() {
                         href="https://instagram.com/quintalevaldo"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-blue-200 hover:bg-blue-300 transition"
+                        className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-green-200 hover:bg-green-300 transition"
                     >
-                        <Instagram className="text-blue-600 h-5 w-5 sm:h-6 sm:w-6" />
+                        <Instagram className="text-green-800 h-5 w-5 sm:h-6 sm:w-6" />
 
 
                     </Link>

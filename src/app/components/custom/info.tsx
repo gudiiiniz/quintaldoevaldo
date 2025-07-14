@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Info() {
   return (
-    <section id="informacoes" className="py-20 bg-gradient-to-b from-gray-100 to-gray-200">
+    <section id="informacoes" className="py-20 bg-white">
       <div className="container mx-auto max-w-3xl px-6">
         <h2 className="text-4xl font-extrabold mb-6 text-center text-gray-800">
           📞 Informações de Contato
@@ -15,7 +15,7 @@ export default function Info() {
           {/* Telefone */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-3 text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
-              <Phone className="text-blue-600 w-6 h-6" />
+              <Phone className="text-green-800 w-6 h-6" />
             </div>
             <span className="text-base sm:text-lg font-medium">
               +55 11 94342-1510
@@ -25,7 +25,7 @@ export default function Info() {
           {/* E-mail */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-3 text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
-              <Mail className="text-blue-600 w-6 h-6" />
+              <Mail className="text-green-800 w-6 h-6" />
             </div>
             <span className="text-base sm:text-lg font-medium">
               contato@quintaldoevaldo.com
@@ -35,7 +35,7 @@ export default function Info() {
           {/* Localização resumida */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-3 text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
-              <MapPin className="text-blue-600 w-6 h-6" />
+              <MapPin className="text-green-800 w-6 h-6" />
             </div>
             <span className="text-base sm:text-lg font-medium">
               R. Eng. Villares da Silva, 180 – Itaquera, SP

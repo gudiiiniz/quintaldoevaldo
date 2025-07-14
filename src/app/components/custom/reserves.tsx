@@ -28,15 +28,15 @@ export default function Reserves() {
         {/* Destaques */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-gray-700">
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
-            <Home className="w-8 h-8 text-blue-600" />
+            <Home className="w-8 h-8 text-green-800" />
             <span className="font-medium">Ambiente familiar e aconchegante</span>
           </div>
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
-            <MapPin className="w-8 h-8 text-blue-600" />
+            <MapPin className="w-8 h-8 text-green-800" />
             <span className="font-medium">Fácil acesso em Itaquera, SP</span>
           </div>
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
-            <Users className="w-8 h-8 text-blue-600" />
+            <Users className="w-8 h-8 text-green-800" />
             <span className="font-medium">Ideal para encontros e eventos</span>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Reserves() {
             rel="noopener noreferrer"
             className={`w-full max-w-md flex items-center justify-center gap-2 px-6 py-3 text-white text-lg font-medium rounded-xl transition-all duration-300 ${
               date
-                ? "bg-blue-600 hover:bg-blue-700 shadow-md"
+                ? "bg-green-800 hover:bg-green-800 shadow-md"
                 : "bg-gray-400 cursor-not-allowed"
             }`}
             onClick={(e) => {
