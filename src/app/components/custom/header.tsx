@@ -36,7 +36,7 @@ export default function Header() {
                 <div className="flex items-center gap-4">
                     {/*Whatsapp*/}
                     <Link
-                        href="https://wa.me/5511943421510"
+                        href="https://wa.me/5511932688448"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-green-200 hover:bg-green-300 transition"
@@ -46,7 +46,7 @@ export default function Header() {
 
                     {/*Telefone*/}
                     <Link
-                        href="tel:+5511943421510"
+                        href="tel:+5511932688448"
                         className="h-10 w-10 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-green-200 hover:bg-green-300 transition md:hidden"
                     >
                         <Phone className="text-green-800 h-5 w-5 sm:h-6 sm:w-6" />

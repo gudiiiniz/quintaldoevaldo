@@ -5,7 +5,7 @@ import { MessageCircle, Home, MapPin, Users } from "lucide-react";
 
 export default function Reserves() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
-  const phone = "5511943421510";
+  const phone = "5511932688448";
 
   const formattedDate = date ? date.toLocaleDateString("pt-BR") : "";
   const whatsappLink = date

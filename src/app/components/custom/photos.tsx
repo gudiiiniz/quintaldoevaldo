@@ -4,21 +4,21 @@ import React from "react";
 import CustomCarousel from "./custom-carousel";
 
 const indoor = [
-  { src: "/images/indoor1.png", alt: "Ambiente 1",},
-  { src: "/images/indoor2.png", alt: "Ambiente 2", },
-  { src: "/images/indoor3.png", alt: "Ambiente 3",},
+  { src: "/images/indoor1.jpg", alt: "Ambiente 1",},
+  { src: "/images/indoor2.jpg", alt: "Ambiente 2", },
+  { src: "/images/indoor3.jpg", alt: "Ambiente 3",},
 ];
 
 const outdoor = [
-  { src: "/images/outdoor1.png", alt: "Ambiente 1",},
-  { src: "/images/outdoor2.png", alt: "Ambiente 2", },
-  { src: "/images/outdoor3.png", alt: "Ambiente 3",},
+  { src: "/images/outdoor1.jpg", alt: "Ambiente 1",},
+  { src: "/images/outdoor2.jpg", alt: "Ambiente 2", },
+  { src: "/images/outdoor3.jpg", alt: "Ambiente 3",},
 ];
 
 const pool = [
-  { src: "/images/pool1.png", alt: "Ambiente 1",},
-  { src: "/images/pool2.png", alt: "Ambiente 2", },
-  { src: "/images/pool3.png", alt: "Ambiente 3",},
+  { src: "/images/pool1.jpg", alt: "Ambiente 1",},
+  { src: "/images/pool2.jpg", alt: "Ambiente 2", },
+  { src: "/images/pool3.jpg", alt: "Ambiente 3",},
 ];
 
 const photos = [
