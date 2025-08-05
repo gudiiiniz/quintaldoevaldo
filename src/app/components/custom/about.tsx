@@ -20,7 +20,7 @@ export default function About() {
           </p>
 
           <p className="text-xl font-semibold text-center text-green-800 pt-2">
-            Venha nos visitar e descubra por que somos o quintal preferido da zona leste!
+            Venha nos visitar e faça já a sua reserva!
           </p>
         </div>
       </div>

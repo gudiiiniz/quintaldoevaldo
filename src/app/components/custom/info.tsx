@@ -18,7 +18,7 @@ export default function Info() {
               <Phone className="text-green-800 w-6 h-6" />
             </div>
             <span className="text-base sm:text-lg font-medium">
-              +55 11 94342-1510
+              +55 11 932688448
             </span>
           </div>
 
@@ -28,7 +28,7 @@ export default function Info() {
               <Mail className="text-green-800 w-6 h-6" />
             </div>
             <span className="text-base sm:text-lg font-medium">
-              contato@quintaldoevaldo.com
+              quintalevaldo@gmail.com
             </span>
           </div>
 

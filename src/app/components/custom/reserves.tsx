@@ -18,7 +18,7 @@ export default function Reserves() {
     <section id="reservas" className="py-20 bg-gray-100">
       <div className="container mx-auto max-w-4xl px-4">
         <h2 className="text-4xl font-extrabold mb-4 text-center text-gray-800">
-          📅 Faça sua Reserva
+          Faça sua Reserva
         </h2>
         <p className="text-center text-lg text-gray-600 mb-10">
           Selecione uma data no calendário abaixo e envie sua solicitação de reserva via WhatsApp.
@@ -29,15 +29,15 @@ export default function Reserves() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-gray-700">
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
             <Home className="w-8 h-8 text-green-800" />
-            <span className="font-medium">Ambiente familiar e aconchegante</span>
+            <span className="font-medium text-center">Ambiente familiar</span>
           </div>
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
             <MapPin className="w-8 h-8 text-green-800" />
-            <span className="font-medium">Fácil acesso em Itaquera, SP</span>
+            <span className="font-medium text-center">Fácil acesso em Itaquera, SP</span>
           </div>
           <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow">
             <Users className="w-8 h-8 text-green-800" />
-            <span className="font-medium">Ideal para encontros e eventos</span>
+            <span className="font-medium text-center">Ideal para encontros e eventos</span>
           </div>
         </div>
 

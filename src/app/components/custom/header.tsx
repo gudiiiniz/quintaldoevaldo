@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Instagram, Mail, MessageCircle, Phone, TentTree } from "lucide-react";
+import { Instagram, MessageCircle, Phone,} from "lucide-react";
 
 export default function Header() {
 
