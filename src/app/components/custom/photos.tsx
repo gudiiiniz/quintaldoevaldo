@@ -36,7 +36,7 @@ export default function Photos() {
     <section id="fotos" className="bg-gray-100 py-20">
       <div className="w-full text-center mb-10 px-4">
         <h2 className="text-4xl font-extrabold text-gray-800 mb-2">
-          📸 Fotos do Espaço
+          Fotos do Espaço
         </h2>
         <p className="text-gray-600 text-lg max-w-xl mx-auto">
           Veja alguns dos nossos ambientes preparados com carinho para o seu evento especial.

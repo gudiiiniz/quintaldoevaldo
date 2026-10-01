@@ -5,7 +5,7 @@ export default function Info() {
     <section id="informacoes" className="py-20 bg-white">
       <div className="container mx-auto max-w-3xl px-6">
         <h2 className="text-4xl font-extrabold mb-6 text-center text-gray-800">
-          📞 Informações de Contato
+        Informações de Contato
         </h2>
         <p className="text-lg text-gray-600 mb-5 text-center">
           Fale com a gente para tirar dúvidas ou fazer sua reserva.
